@@ -9,6 +9,7 @@ const __dirname = dirname(__filename)
 
 export default defineConfig({
   plugins: [react()],
+  base: '/Controle-de-Gastos/', // nome EXATO do repositório
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
